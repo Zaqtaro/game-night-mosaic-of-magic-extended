@@ -1,1 +1,4 @@
-### Mosaic of Magic: Trading Card Game
+## Mosaic of Magic: Expanded
+
+- Current Expansions:
+  - Desert Dreams
