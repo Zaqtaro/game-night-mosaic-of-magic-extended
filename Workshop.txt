@@ -1,20 +1,17 @@
 version=1
-id=3243889212
-title=Game Night: Mosaic of Magic
+title=Game Night: Mosaic of Magic: Extended
 description=[h2]Add-On for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3058279917]GameNight[/url].[/h2]
-description=[h3]With hundreds of cards to collect, each more powerful than the last, Mosaic of Magic offers endless possibilities for deck customization and strategic gameplay.[/h3]
+description=[h3]Adding expansions for: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3243889212]Mosaic of Magic[/url].[/h3]
 description=
-description=[i]Mosaic of Magic[/i], released in early-1993 and widespread, can be collected through booster-packs, starter-sets, and already built-decks, throughout the world. Thanks to the Game Night API the game is also fully playable!
+description=[i]Current Expansions:[/i]
+description= - Desert Dreams
 description=
-description=[img]https://raw.githubusercontent.com/oppolla/game-night-mosaic-of-magic/main/images/steamDescsGranny.png[/img]
 description=
 description=[url=https://discord.gg/SReMnbV4V7][img]https://raw.githubusercontent.com/Chuckleberry-Finn/chuckImages/main/PZmodCommBanner2.png[/img][/url]
-description=
-description=[img]https://raw.githubusercontent.com/Chuckleberry-Finn/game-night/main/images/regardingLoot.png[/img]
 description=
 description=[url=https://github.com/Chuckleberry-Finn/game-night][img]https://raw.githubusercontent.com/Chuckleberry-Finn/game-night/main/images/addOnGuideBanner.png[/img][/url]
 description=
 description=
-description=[h3]Copyright 2024 Oppolla, Chuckleberry Finn, and Nurver. This item is not authorized for posting on Steam, except under the Steam account(s) named Oppolla, Chuckleberry Finn, and Nurver.[/h3]
+description=[h3]Copyright 2024 Angered Carrot and Chuckleberry Finn. This item is not authorized for posting on Steam, except under the Steam account(s) named Angered Carrot and Chuckleberry Finn.[/h3]
 tags=Build 41;Multiplayer;Pop Culture;Silly/Fun
 visibility=public
