@@ -12,75 +12,90 @@ local MOM = require "gameNight - implementMoM"
 --- SETNAME needs to be equal to the directory inside of Item_momCards/
 MOM.sets.DesertDreams = {
 
-    --- CARDS ARE SORTED BY COLOR, RELIC, AND DOMAINS
     cards = {
-        ["Black"] = {
-            "card name","card name",
-        },
-
         ["White"] = {
-            "card name","card name",
-        },
-
-        ["Green"] = {
-            "card name","card name",
-        },
-
-        ["Red"] = {
-            "card name","card name",
+            "Jafar the Gentle", "Sultan's Guard", "Sand Strider", "Just Desert", "Holy Quest",
+            "Sultan Sufyan", "Desert Riders", "Devotion", "Forgiven Smith", "Narra Hazade",
+            "Battle Pachyderm"
         },
 
         ["Blue"] = {
-            "card name","card name",
+            "Desert Serpent", "Sandfish Oil", "Sky Wanderers", "Colossal Carapace", "Oasis Leviathan",
+            "Trade Vessel", "Elder of the Waves", "Mirage Djinn", "Desert Efreet", "Sandbad the Sailor",
+            "Chaotic Transformation"
+        },
+
+        ["Black"] = {
+            "Desert Enchantresses", "Hajjir the Wise", "Sand Dune Raiders", "Sentinel Creature", "Desert Ogress",
+            "Tempest Efreet", "Abyssal Djinn", "Dune Ghoul", "Forgotten Pit", "Enchantress Sovereign",
+            "Rock Slingers"
+        },
+
+        ["Red"] = {
+            "Adilan", "Baba Ali", "Ali of Mirage", "Avian Damsel", "Wandering Tribes",
+            "Desert Jackal", "Sand Ape", "Ironpeak", "Mirage Djinn", "Roc Egg",
+            "Wydan Efreet"
+        },
+
+        ["Green"] = {
+            "Desert Whirlwind", "Sandstorm Twister", "Nectar of the Oasis", "Erhnam Spirit", "Ghazban Giant",
+            "Inferno Efreet", "Transfiguration", "Desert Asp", "Sand Tempest", "Melodious Tree",
+            "Desert Wolf"
         },
 
         ["Relics"] = {
-            "card name","card name", --etc
+            "Adilan's Lantern", "Adilan's Band", "Flask of Sufyan", "Bronze Golem", "CaptuRed City",
+            "Whirling Sword", "Midnight Steed", "Soaring Rug", "Jandor's Circle", "Jandor's Packs",
+            "Gemmed Avian", "Sand Monoliths", "Ring of Miran", "Sandals of Adnan"
         },
 
-        --- Domains need to be their own "type" for each of the color (and combo)
-
-        ["Black Domain"] = { "Swamp", "Swamp", "Swamp"},
-        ["White Domain"] = { "Plains", "Plains", "Plains"},
-        ["Green Domain"] = { "Forest", "Forest", "Forest"},
-        ["Blue Domain"] = { "Island", "Island", "Island"},
-        ["Red Domain"] = { "Mountain", "Mountain", "Mountain"},
-
-        ["Blue White Domain"] = { "Tundra" },
-        ["Black Blue Domain"] = { "Underground Sea" },
-        ["White Black Domain"] = { "Scrubland" },
-        ["Red Black Domain"] = { "Badlands" },
-        ["Red White Domain"] = { "Plateau" },
-        ["Green Red Domain"] = { "Taiga" },
-        ["White Green Domain"] = { "Savannah" },
-        ["Green Blue Domain"] = { "Tropical Island" },
-        ["Black Green Domain"] = { "Bayou" },
-        ["Blue Red Domain"] = { "Volcanic Island" },
+        ["Domain"] = {
+            "Market of Mirage", "City of Bronze", "The Wastes",
+            "Gemstone Valley", "Elephant Graveyard", "Oasis of Waku",
+            "Library of Sufyan", "Desert Spring" }
     },
 
-    ---RARITIES ARE LISTED TO MATCH THE CARDS' LIST - "RELICS 2" IS THE 2ND CARD IN THE RELICS LIST, ETC.
     rarities = {
-        --- THESE ARE THE SAME AS THE TEXTURE FILE
         Rare = {
-            "Relics 2", "Relics 5", "Relics 8", "Relics 11", "Relics 16", "Relics 17", "Relics 18",
+            "White 5", "White 6", "White 9", "White 10",
+            "Blue 5", "Blue 7", "Blue 8", "Blue 9",
+            "black 2", "black 4", "black 6", "black 7",
+            "Red 1", "Red 3", "Red 9", "Red 11",
+            "Green 3", "Green 4", "Green 6", "Green 10",
+            "Relics 1", "Relics 2", "Relics 3", "Relics 5",
+            "Relics 6", "Relics 7", "Relics 9", "Relics 10",
+            "Relics 12", "Relics 13", "Domain 4", "Domain 5",
+            "Domain 6",
         },
 
         Uncommon = {
-            "Relics 1", "Relics 6", "Relics 7", "Relics 8", "Relics 9", "Relics 12", "Relics 13",
+            "White 1", "White 4", "Blue 6", "Blue 10",
+            "black 8", "black 10", "Red 2", "Red 8",
+            "Green 1", "Green 2", "Relics 4", "Relics 8",
+            "Relics 11", "Relics 14", "Domain 1", "Domain 2",
+            "Domain 7", "Domain 8",
         },
 
         Common = {
-            "Black 4", "Black 5", "Black 7", "Black 8", "Black 10", "Black 12", "Black 15", "Black 22", "Black 30",
+            "White 2", "White 3", "White 7", "White 8", "White 11",
+            "Blue 1", "Blue 2", "Blue 3", "Blue 4", "Blue 11",
+            "black 1", "black 3", "black 5", "black 9", "black 11",
+            "Red 4", "Red 5", "Red 6", "Red 7", "Red 10",
+            "Green 5", "Green 7", "Green 8", "Green 9", "Green 11",
+            "Domain 3",
         },
+    },
 
-        --- The domains you want to be in circulation (Note the Prima set doesn't include combo domains)
-        Domain = {
-            "Red Domain 1", "Red Domain 2", "Red Domain 3", "Blue Domain 1", "Blue Domain 2", "Blue Domain 3",
-        },
-    }
 }
 
----PREBUILT SETS ARE STORED HERE AND ACCESSED IN THE MOD DATA OF THE RECIPE ITEM.
-MOM.preBuiltSets.PREBUILT_ID = {
-    "Black 1", "Black 2", "Black 3",
+
+MOM.preBuiltSets.DDAll = {
+"White 1", "White 2", "White 3", "White 4", "White 5", "White 6", "White 7", "White 8", "White 9", "White 10", "White 11",
+"Blue 1", "Blue 2", "Blue 3", "Blue 4", "Blue 5", "Blue 6", "Blue 7", "Blue 8", "Blue 9", "Blue 10", "Blue 11",
+"black 1", "black 2", "black 3", "black 4", "black 5", "black 6", "black 7", "black 8", "black 9", "black 10", "black 11",
+"Red 1", "Red 2", "Red 3", "Red 4", "Red 5", "Red 6", "Red 7", "Red 8", "Red 9", "Red 10", "Red 11",
+"Green 1", "Green 2", "Green 3", "Green 4", "Green 5", "Green 6", "Green 7", "Green 8", "Green 9", "Green 10", "Green 11",
+"Relics 1", "Relics 2", "Relics 3", "Relics 4", "Relics 5", "Relics 6", "Relics 7",
+"Relics 8", "Relics 9", "Relics 10", "Relics 11", "Relics 12", "Relics 13", "Relics 14",
+"Domain 1", "Domain 2", "Domain 3", "Domain 4", "Domain 5", "Domain 6", "Domain 7", "Domain 8"
 }
