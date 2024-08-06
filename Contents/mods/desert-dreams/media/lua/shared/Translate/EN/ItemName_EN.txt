@@ -1,4 +1,0 @@
-ItemName_EN = {
-    ItemName_Base.momStarterKit_DD = "Mosaic of Magic: Desert Dreams Starter Kit",
-    ItemName_Base.momBoosterPack_DD = "Mosaic of Magic: Desert Dreams Booster Pack",
-}
