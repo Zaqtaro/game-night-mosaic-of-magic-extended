@@ -1,0 +1,10 @@
+module Base
+{
+    item momStarterKit_ddAll
+    {
+        DisplayCategory = GameBox, Weight = 0.1, Type = Normal,
+        DisplayName = Mosaic of Magic: Desert Dreams Draft Set,
+        gameNight_momPrebuilt = DDAll,
+        Icon = Boxes/MoMStarterBox, WorldStaticModel = MoM_StarterBox,
+    }
+}

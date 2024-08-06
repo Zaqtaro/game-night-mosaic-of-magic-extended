@@ -10,7 +10,7 @@
 local MOM = require "gameNight - implementMoM"
 
 --- SETNAME needs to be equal to the directory inside of Item_momCards/
-MOM.sets.DesertDreams = {
+MOM.sets["Desert Dreams"] = {
 
     cards = {
         ["White"] = {
@@ -49,17 +49,23 @@ MOM.sets.DesertDreams = {
             "Gemmed Avian", "Sand Monoliths", "Ring of Miran", "Sandals of Adnan"
         },
 
+        ["Black Domain"] = {"Swamp"},
+        ["White Domain"] = {"Plains"},
+        ["Green Domain"] = {"Forest"},
+        ["Blue Domain"] = {"Island"},
+        ["Red Domain"] = {"Mountain"},
+
         ["Domain"] = {
             "Market of Mirage", "City of Bronze", "The Wastes",
             "Gemstone Valley", "Elephant Graveyard", "Oasis of Waku",
-            "Library of Sufyan", "Desert Spring" }
+            "Library of Sufyan", "Desert Spring" },
     },
 
     rarities = {
         Rare = {
             "White 5", "White 6", "White 9", "White 10",
             "Blue 5", "Blue 7", "Blue 8", "Blue 9",
-            "black 2", "black 4", "black 6", "black 7",
+            "Black 2", "Black 4", "Black 6", "Black 7",
             "Red 1", "Red 3", "Red 9", "Red 11",
             "Green 3", "Green 4", "Green 6", "Green 10",
             "Relics 1", "Relics 2", "Relics 3", "Relics 5",
@@ -70,7 +76,7 @@ MOM.sets.DesertDreams = {
 
         Uncommon = {
             "White 1", "White 4", "Blue 6", "Blue 10",
-            "black 8", "black 10", "Red 2", "Red 8",
+            "Black 8", "Black 10", "Red 2", "Red 8",
             "Green 1", "Green 2", "Relics 4", "Relics 8",
             "Relics 11", "Relics 14", "Domain 1", "Domain 2",
             "Domain 7", "Domain 8",
@@ -79,10 +85,14 @@ MOM.sets.DesertDreams = {
         Common = {
             "White 2", "White 3", "White 7", "White 8", "White 11",
             "Blue 1", "Blue 2", "Blue 3", "Blue 4", "Blue 11",
-            "black 1", "black 3", "black 5", "black 9", "black 11",
+            "Black 1", "Black 3", "Black 5", "Black 9", "Black 11",
             "Red 4", "Red 5", "Red 6", "Red 7", "Red 10",
             "Green 5", "Green 7", "Green 8", "Green 9", "Green 11",
             "Domain 3",
+        },
+
+        Domain = {
+            "Red Domain 1", "Blue Domain 1", "Green Domain 1", "White Domain 1", "Black Domain 1",
         },
     },
 
@@ -90,12 +100,16 @@ MOM.sets.DesertDreams = {
 
 
 MOM.preBuiltSets.DDAll = {
-"White 1", "White 2", "White 3", "White 4", "White 5", "White 6", "White 7", "White 8", "White 9", "White 10", "White 11",
-"Blue 1", "Blue 2", "Blue 3", "Blue 4", "Blue 5", "Blue 6", "Blue 7", "Blue 8", "Blue 9", "Blue 10", "Blue 11",
-"black 1", "black 2", "black 3", "black 4", "black 5", "black 6", "black 7", "black 8", "black 9", "black 10", "black 11",
-"Red 1", "Red 2", "Red 3", "Red 4", "Red 5", "Red 6", "Red 7", "Red 8", "Red 9", "Red 10", "Red 11",
-"Green 1", "Green 2", "Green 3", "Green 4", "Green 5", "Green 6", "Green 7", "Green 8", "Green 9", "Green 10", "Green 11",
-"Relics 1", "Relics 2", "Relics 3", "Relics 4", "Relics 5", "Relics 6", "Relics 7",
-"Relics 8", "Relics 9", "Relics 10", "Relics 11", "Relics 12", "Relics 13", "Relics 14",
-"Domain 1", "Domain 2", "Domain 3", "Domain 4", "Domain 5", "Domain 6", "Domain 7", "Domain 8"
+    
+    cards = { "White 1", "White 2", "White 3", "White 4", "White 5", "White 6", "White 7", "White 8", "White 9", "White 10", "White 11",
+              "Blue 1", "Blue 2", "Blue 3", "Blue 4", "Blue 5", "Blue 6", "Blue 7", "Blue 8", "Blue 9", "Blue 10", "Blue 11",
+              "Black 1", "Black 2", "Black 3", "Black 4", "Black 5", "Black 6", "Black 7", "Black 8", "Black 9", "Black 10", "Black 11",
+              "Red 1", "Red 2", "Red 3", "Red 4", "Red 5", "Red 6", "Red 7", "Red 8", "Red 9", "Red 10", "Red 11",
+              "Green 1", "Green 2", "Green 3", "Green 4", "Green 5", "Green 6", "Green 7", "Green 8", "Green 9", "Green 10", "Green 11",
+              "Relics 1", "Relics 2", "Relics 3", "Relics 4", "Relics 5", "Relics 6", "Relics 7",
+              "Relics 8", "Relics 9", "Relics 10", "Relics 11", "Relics 12", "Relics 13", "Relics 14",
+              "Domain 1", "Domain 2", "Domain 3", "Domain 4", "Domain 5", "Domain 6", "Domain 7", "Domain 8",
+              "Red Domain 1", "Blue Domain 1", "Green Domain 1", "White Domain 1", "Black Domain 1",},
+
+    set = "Desert Dreams"
 }
