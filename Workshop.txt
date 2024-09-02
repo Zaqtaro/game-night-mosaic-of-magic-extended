@@ -1,4 +1,5 @@
 version=1
+id=3323250731
 title=Game Night: Mosaic of Magic: Extended
 description=[h2]Add-On for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3058279917]GameNight[/url].[/h2]
 description=[h3]Adding expansions for: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3243889212]Mosaic of Magic[/url].[/h3]
@@ -6,8 +7,9 @@ description=
 description=[i]Current Expansions:[/i]
 description= - Desert Dreams
 description=
+description=[i]More To Come! If you'd like to chip-in, offer suggestions, visit [/i][url=https://github.com/Zaqtaro/game-night-mosaic-of-magic-extended]here[/url].
 description=
-description=[url=https://discord.gg/SReMnbV4V7][img]https://raw.githubusercontent.com/Chuckleberry-Finn/chuckImages/main/PZmodCommBanner2.png[/img][/url]
+description=[h3][i]More To Come! If you'd like to chip-in, offer suggestions, visit [/i][url=https://github.com/Zaqtaro/game-night-mosaic-of-magic-extended]here[/url].[/h3]
 description=
 description=[url=https://github.com/Chuckleberry-Finn/game-night][img]https://raw.githubusercontent.com/Chuckleberry-Finn/game-night/main/images/addOnGuideBanner.png[/img][/url]
 description=
