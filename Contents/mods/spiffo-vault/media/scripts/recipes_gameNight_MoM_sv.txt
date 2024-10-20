@@ -1,0 +1,4 @@
+module Base
+{
+    recipe Unseal Box { momStarterKit_SVAll, Result:momCards, CanBeDoneFromFloor:true, OnCreate:Recipe.GameNight.OpenKitMoM, Time:50.0, }
+}

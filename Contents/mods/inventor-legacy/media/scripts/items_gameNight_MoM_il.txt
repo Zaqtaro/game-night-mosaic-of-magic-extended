@@ -1,0 +1,10 @@
+module Base
+{
+    item momStarterKit_ILAll
+    {
+        DisplayCategory = GameBox, Weight = 0.1, Type = Normal,
+        DisplayName = Mosaic of Magic: Inventor's Legacy Collector Set,
+        gameNight_momPrebuilt = ILAll,
+        Icon = Boxes/MoMStarterBox, WorldStaticModel = MoM_StarterBox,
+    }
+}

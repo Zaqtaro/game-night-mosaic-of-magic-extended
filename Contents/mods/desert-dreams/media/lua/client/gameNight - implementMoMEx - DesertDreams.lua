@@ -98,7 +98,6 @@ MOM.sets["Desert Dreams"] = {
 
 }
 
-
 MOM.preBuiltSets.DDAll = {
     
     cards = { "White 1", "White 2", "White 3", "White 4", "White 5", "White 6", "White 7", "White 8", "White 9", "White 10", "White 11",
