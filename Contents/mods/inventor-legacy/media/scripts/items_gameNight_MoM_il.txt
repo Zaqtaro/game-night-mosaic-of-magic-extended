@@ -8,3 +8,4 @@ module Base
         Icon = Boxes/MoMStarterBox, WorldStaticModel = MoM_StarterBox,
     }
 }
+
