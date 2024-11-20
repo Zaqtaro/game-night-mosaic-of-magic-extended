@@ -6,8 +6,8 @@ description=[h3]Adding expansions for: [url=https://steamcommunity.com/sharedfil
 description=
 description=[i]Current Expansions:[/i]
 description= - Desert Dreams
-description=
-description=[i]More To Come! If you'd like to chip-in, offer suggestions, visit [/i][url=https://github.com/Zaqtaro/game-night-mosaic-of-magic-extended]here[/url].
+description= - Inventor's Legacy
+description=[i]And More to Come![/i]
 description=
 description=[h3][i]More To Come! If you'd like to chip-in, offer suggestions, visit [/i][url=https://github.com/Zaqtaro/game-night-mosaic-of-magic-extended]here[/url].[/h3]
 description=
