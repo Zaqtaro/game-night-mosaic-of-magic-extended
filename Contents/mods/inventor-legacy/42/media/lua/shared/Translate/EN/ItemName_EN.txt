@@ -1,0 +1,3 @@
+ItemName_EN = {
+    ItemName_Base.momStarterKit_ILAll = "Mosaic of Magic: Inventor's Legacy Collector Set"
+}
