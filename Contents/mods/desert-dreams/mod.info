@@ -2,4 +2,4 @@ name=Game Night - Mosaic of Magic: Desert Dreams
 id=gamenight_mom_desertDreams
 description=
 poster=poster.png
-require=gamenight
+require=gamenight,gamenight_mosaic_of_magic
