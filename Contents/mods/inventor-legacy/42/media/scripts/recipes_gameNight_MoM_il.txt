@@ -1,6 +1,6 @@
 module Base
 {
-    craftRecipe UnsealMoMStarterKit_ddAll
+    craftRecipe UnsealMoMStarterKit_ILAll
     {
         Time = 25,
         category = Miscellaneous,
