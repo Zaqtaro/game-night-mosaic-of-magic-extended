@@ -3,3 +3,5 @@ id=gamenight_mom_InventorLegacy
 description=
 poster=poster.png
 require=gamenight,gamenight_mosaic_of_magic
+author=Chuckleberry Finn
+icon=icon.png
