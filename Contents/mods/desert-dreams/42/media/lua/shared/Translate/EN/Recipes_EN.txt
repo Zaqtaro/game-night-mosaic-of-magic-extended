@@ -1,3 +1,0 @@
-RecipesEN {
-    Recipe_UnsealMoMStarterKit_ddAll = "Unseal",
-}
