@@ -53,7 +53,7 @@ MOM.sets["Inventor's Legacy"] = {
 
 		Common = {"White 2", "White 3", "White 7", "Blue 1", "Blue 5", "Blue 6", "Black 1", "Black 4", "Black 5",
 				  "Red 1", "Red 2", "Red 6", "Green 1", "Green 2", "Green 4", "Relics 1", "Relics 6", "Relics 9",
-				  "Relics 14", "Relics 17", "Relics 25", "Relics 30", "Relics 32", "Relics 41", "Relics 45", "domain 5",
+				  "Relics 14", "Relics 17", "Relics 25", "Relics 30", "Relics 32", "Relics 41", "Domain 5",
 				  "Domain 6"},
 
         Domain = { "Red Domain 1", "Blue Domain 1", "Green Domain 1", "White Domain 1", "Black Domain 1", },
