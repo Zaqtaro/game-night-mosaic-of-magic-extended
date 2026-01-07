@@ -11,6 +11,8 @@ description=[i]And More to Come![/i]
 description=
 description=[h3][i]More To Come! If you'd like to chip-in, offer suggestions, visit [/i][url=https://github.com/Zaqtaro/game-night-mosaic-of-magic-extended]here[/url].[/h3]
 description=
+description=[i]Disclaimer: Art for the cards used image generation using Free-to-Use trained models. The card backing/border/etc were completed by myself.[/i]
+description=
 description=[url=https://github.com/Chuckleberry-Finn/game-night][img]https://raw.githubusercontent.com/Chuckleberry-Finn/game-night/main/images/addOnGuideBanner.png[/img][/url]
 description=
 description=
