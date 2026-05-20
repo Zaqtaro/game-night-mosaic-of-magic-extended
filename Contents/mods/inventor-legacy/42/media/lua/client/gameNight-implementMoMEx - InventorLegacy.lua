@@ -1,4 +1,9 @@
-local MOM = require "gameNight - implementMoM"
+local applyItemDetails = require("gameNight-applyItemDetails.lua")
+local gamePieceHandler = applyItemDetails.gamePieceHandler
+gamePieceHandler.registerSpecial("Base.momStarterKit_ILAll", { hideUI = true, })
+
+
+local MOM = require("gameNight-implementMoM.lua")
 
 MOM.sets["Inventor's Legacy"] = {
 
@@ -43,7 +48,7 @@ MOM.sets["Inventor's Legacy"] = {
 	rarities = {
         	Rare = {"White 1", "Blue 3", "Black 7", "Red 7", "Green 5", "Relics 7", "Relics 8", "Relics 10",
 					 "Relics 11", "Relics 12", "Relics 16", "Relics 22", "Relics 23", "Relics 29", "Relics 33",
-					 "Relics 37", "Relics 39", "Relics 40", "Relics 42", "domain 2",},
+					 "Relics 37", "Relics 39", "Relics 40", "Relics 42", "Domain 2",},
 
 		Uncommon = {"White 4", "White 5", "White 6", "Blue 2", "Blue 4", "Blue 7", "Black 2", "Black 3", "Black 6",
 					"Red 3", "Red 4", "Red 5", "Green 3", "Green 6", "Green 7", "Relics 2", "Relics 3", "Relics 4",

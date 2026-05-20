@@ -1,5 +1,10 @@
 --- This expansion file is required to be in /client/ to work.
 --- Rename file to replace `NAME_OF_EXPANSION` in  `gameNight - implementMoMEx - NAME_OF_EXPANSION`
+---
+local applyItemDetails = require("gameNight-applyItemDetails.lua")
+local gamePieceHandler = applyItemDetails.gamePieceHandler
+gamePieceHandler.registerSpecial("Base.momStarterKit_ddAll", { hideUI = true, })
+
 
 --- FOR ART
 -- Place artwork with in a sub folder named `SETNAME` (to be changed) in `Item_momCards/`
@@ -7,7 +12,7 @@
 -- `SET NAME` should match the set you're adding.
 
 -- This line is required as a means to load the MOM module.
-local MOM = require "gameNight - implementMoM"
+local MOM = require("gameNight-implementMoM.lua")
 
 --- SETNAME needs to be equal to the directory inside of Item_momCards/
 MOM.sets["Desert Dreams"] = {
