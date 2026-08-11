@@ -1,8 +1,8 @@
---- This expansion file is required to be in /client/ to work.
+--- This expansion file is required to be in /shared/ to work (it must be visible to the server
+--- so booster/starter packs can resolve this set at craft time, not just when a client views them).
 --- Rename file to replace `NAME_OF_EXPANSION` in  `gameNight - implementMoMEx - NAME_OF_EXPANSION`
 ---
-local applyItemDetails = require("gameNight-applyItemDetails.lua")
-local gamePieceHandler = applyItemDetails.gamePieceHandler
+local gamePieceHandler = require("gameNight-gamePieceHandler.lua")
 gamePieceHandler.registerSpecial("Base.momStarterKit_ddAll", { hideUI = true, })
 
 
@@ -11,8 +11,8 @@ gamePieceHandler.registerSpecial("Base.momStarterKit_ddAll", { hideUI = true, })
 --- For example: `Item_momCards/Prima/`
 -- `SET NAME` should match the set you're adding.
 
--- This line is required as a means to load the MOM module.
-local MOM = require("gameNight-implementMoM.lua")
+-- This line is required as a means to load the MOM data module.
+local MOM = require("gameNight-cardDataMoM.lua")
 
 --- SETNAME needs to be equal to the directory inside of Item_momCards/
 MOM.sets["Desert Dreams"] = {

@@ -1,9 +1,10 @@
-local applyItemDetails = require("gameNight-applyItemDetails.lua")
-local gamePieceHandler = applyItemDetails.gamePieceHandler
+--- This expansion file must live in /shared/ so its set data is visible to the server too
+--- (booster/starter packs resolve their set server-side, at craft time).
+local gamePieceHandler = require("gameNight-gamePieceHandler.lua")
 gamePieceHandler.registerSpecial("Base.momStarterKit_ILAll", { hideUI = true, })
 
 
-local MOM = require("gameNight-implementMoM.lua")
+local MOM = require("gameNight-cardDataMoM.lua")
 
 MOM.sets["Inventor's Legacy"] = {
 
